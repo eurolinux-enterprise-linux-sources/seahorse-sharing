@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+_Name=Seahorse Sharing Daemon
+Exec=seahorse-sharing
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-Phase=Initialization
+X-GNOME-AutoRestart=true
+X-GNOME-Autostart-Notify=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=seahorse
+X-GNOME-Bugzilla-Component=Daemon
+X-GNOME-Bugzilla-Version=2.29.4
+

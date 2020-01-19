@@ -1,0 +1,121 @@
+# Galician translation for seahorse-sharing.
+# Copyright (C) 2012 seahorse-sharing's COPYRIGHT HOLDER
+# This file is distributed under the same license as the seahorse-sharing package.
+# Fran Dieguez <frandieguez@gnome.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-sharing master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-12 01:07+0200\n"
+"PO-Revision-Date: 2012-10-12 01:08+0200\n"
+"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
+"Language-Team: gnome-l10n-gl@gnome.org\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../daemon/seahorse-daemon.c:55
+msgid "Do not run seahorse-daemon as a daemon"
+msgstr "Non executar o seahorse-daemon como un daemon"
+
+#: ../daemon/seahorse-daemon.c:84
+msgid "couldn't fork process"
+msgstr "non foi posíbel facer o fork do proceso"
+
+#: ../daemon/seahorse-daemon.c:90
+msgid "couldn't create new process group"
+msgstr "non foi posíbel crear un grupo de proceso novo"
+
+#: ../daemon/seahorse-daemon.c:319
+msgid "Key Sharing Daemon (Seahorse)"
+msgstr "Daemon de compartición de chaves (Seahorse)"
+
+#: ../daemon/seahorse-sharing.c:167 ../daemon/seahorse-sharing.c:383
+msgid "Couldn't share keys"
+msgstr "Non se puideron compartir as chaves"
+
+#: ../daemon/seahorse-sharing.c:168
+msgid "Can't publish discovery information on the network."
+msgstr "Non se pode publicar a información de descubrimento na rede."
+
+#.
+#. * Translators: The %s will get filled in with the user name
+#. * of the user, to form a genitive. If this is difficult to
+#. * translate correctly so that it will work correctly in your
+#. * language, you may use something equivalent to
+#. * "Shared keys of %s".
+#.
+#: ../daemon/seahorse-sharing.c:196
+#, c-format
+msgid "%s's encryption keys"
+msgstr "Chaves de cifrado de %s"
+
+#: ../daemon/seahorse-sharing.desktop.in.h:1
+msgid "Seahorse Sharing Daemon"
+msgstr "Daemon de compartición de Seahorse"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "O ficheiro non é .desktop válido"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Non se recoñece a versión do ficheiro desktop '%s'"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Iniciando %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "O aplicativo non acepta documentos na liña de ordes"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Non se recoñece a opción de inicio: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Non pode pasar un URI de documento a unha entrada desktop «Type=Link»"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Non é un elemento executábel"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Desactivar a conexión co xestor de sesión"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Especificar o ficheiro que contén a configuración gardada"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "FICHEIRO"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Especificar o ID de xestión de sesión"
+
+#: ../libegg/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Opcións de xestión da sesión:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Mostrar as opcións de xestión de sesión"

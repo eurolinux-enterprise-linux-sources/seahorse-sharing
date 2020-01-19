@@ -1,0 +1,51 @@
+seahorse-sharing 3.8.0
+----------------------
+
+ * Updated translations
+
+seahorse-sharing 3.7.5
+----------------------
+
+ * Updated translations
+
+seahorse-sharing 3.6.1
+----------------------
+
+ * Updated translations
+
+seahorse-sharing 3.6.0
+----------------------
+
+ (no changes since previous release)
+
+seahorse-sharing 3.5.92
+-----------------------
+
+ * Updated translations
+
+seahorse-sharing 3.4.0
+----------------------
+
+ (no changes since previous release)
+
+seahorse-sharing 3.3.92
+-----------------------
+
+ * Build fix, rename gettext package
+
+seahorse-sharing 3.2.1
+----------------------
+
+ * Fix build when GPGME is built with largefile support.
+
+seahorse-sharing 3.2
+--------------------
+
+ * Reconnect to Avahi when it restarts
+ * Depend on GTK+ 3.x
+ * Build fixes
+
+seahorse-sharing 2.31.90
+------------------------
+
+ * Initial release split off from seahorse

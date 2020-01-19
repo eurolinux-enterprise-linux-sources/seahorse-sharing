@@ -1,0 +1,127 @@
+# German translation for seahorse-sharing.
+# Copyright (C) 2012 seahorse-sharing's COPYRIGHT HOLDER
+# This file is distributed under the same license as the seahorse-sharing package.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: seahorse-sharing master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-27 06:47+0000\n"
+"PO-Revision-Date: 2012-09-29 22:24+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: ../daemon/seahorse-daemon.c:55
+msgid "Do not run seahorse-daemon as a daemon"
+msgstr "seahorse-daemon nicht als Hintergrunddienst ausführen"
+
+#: ../daemon/seahorse-daemon.c:84
+msgid "couldn't fork process"
+msgstr "Unterprozess kann nicht verzweigt werden"
+
+#: ../daemon/seahorse-daemon.c:90
+msgid "couldn't create new process group"
+msgstr "Neue Prozessgruppe konnte nicht erstellt werden"
+
+#: ../daemon/seahorse-daemon.c:319
+msgid "Key Sharing Daemon (Seahorse)"
+msgstr "Hintergrunddienst zur Schlüsselfreigabe (Seahorse)"
+
+#: ../daemon/seahorse-sharing.c:167
+#: ../daemon/seahorse-sharing.c:383
+msgid "Couldn't share keys"
+msgstr "Schlüssel konnten nicht freigegeben werden"
+
+#: ../daemon/seahorse-sharing.c:168
+msgid "Can't publish discovery information on the network."
+msgstr "Erkennungsinformationen können nicht im Netzwerk freigegeben werden."
+
+#.
+#. * Translators: The %s will get filled in with the user name
+#. * of the user, to form a genitive. If this is difficult to
+#. * translate correctly so that it will work correctly in your
+#. * language, you may use something equivalent to
+#. * "Shared keys of %s".
+#.
+#: ../daemon/seahorse-sharing.c:196
+#, c-format
+msgid "%s's encryption keys"
+msgstr "Verschlüsselungsschlüssel von %s"
+
+#: ../daemon/seahorse-sharing.desktop.in.h:1
+msgid "Seahorse Sharing Daemon"
+msgstr "Seahorse Freigabedienst"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Datei ist keine gültige .desktop-Datei"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Nicht erkannte Version der Desktop-Datei »%s«"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "%s wird gestartet"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Die Anwendung unterstützt keine Dokumente über die Befehlszeile"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Unbekannte Startoption: %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+"Dokumenten-Adressen können nicht an einen »Type=Link«-Desktop-Eintrag "
+"übergeben werden"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Kein ausführbares Objekt"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Verbindung zur Sitzungsverwaltung deaktivieren"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Datei mit gespeicherter Konfiguration angeben"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "DATEI"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Sitzungsverwaltungs-Kennung festlegen"
+
+#: ../libegg/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Sitzungsverwaltungs-Optionen:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Optionen der Sitzungsverwaltung anzeigen"
+

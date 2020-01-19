@@ -1,0 +1,5 @@
+daemon/seahorse-daemon.c
+daemon/seahorse-sharing.c
+daemon/seahorse-sharing.desktop.in
+libegg/eggdesktopfile.c
+libegg/eggsmclient.c

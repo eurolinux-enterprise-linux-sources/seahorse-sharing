@@ -1,0 +1,123 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-12 23:38+0300\n"
+"PO-Revision-Date: 2012-10-12 23:47+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: ../daemon/seahorse-daemon.c:55
+msgid "Do not run seahorse-daemon as a daemon"
+msgstr "Nepalaist seahorse-daemon kā dēmonu"
+
+#: ../daemon/seahorse-daemon.c:84
+msgid "couldn't fork process"
+msgstr "nevarēja sazarot procesu"
+
+#: ../daemon/seahorse-daemon.c:90
+msgid "couldn't create new process group"
+msgstr "nevarēja izveidot jaunu procesu grupu"
+
+#: ../daemon/seahorse-daemon.c:319
+msgid "Key Sharing Daemon (Seahorse)"
+msgstr "Atslēgu koplietošanas dēmons (Seahorse)"
+
+#: ../daemon/seahorse-sharing.c:167 ../daemon/seahorse-sharing.c:383
+msgid "Couldn't share keys"
+msgstr "Nevarēja koplietot atslēgas"
+
+#: ../daemon/seahorse-sharing.c:168
+msgid "Can't publish discovery information on the network."
+msgstr "Nevar publicēt atklāto informāciju tīklā."
+
+#.
+#. * Translators: The %s will get filled in with the user name
+#. * of the user, to form a genitive. If this is difficult to
+#. * translate correctly so that it will work correctly in your
+#. * language, you may use something equivalent to
+#. * "Shared keys of %s".
+#.
+#: ../daemon/seahorse-sharing.c:196
+#, c-format
+msgid "%s's encryption keys"
+msgstr "%s šifrēšanas atslēgas"
+
+#: ../daemon/seahorse-sharing.desktop.in.h:1
+msgid "Seahorse Sharing Daemon"
+msgstr "Seahorse koplietošanas dēmons"
+
+#: ../libegg/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Datne nav derīga .desktop datne"
+
+#: ../libegg/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Neatpazīta darbvirsmas datnes versija “%s”"
+
+#: ../libegg/eggdesktopfile.c:968
+#, c-format
+msgid "Starting %s"
+msgstr "Palaiž %s"
+
+#: ../libegg/eggdesktopfile.c:1110
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Lietotne nepieņem dokumentus no komandrindas"
+
+#: ../libegg/eggdesktopfile.c:1178
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Neatpazīta palaišanas opcija — %d"
+
+#: ../libegg/eggdesktopfile.c:1383
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Nevar padot dokumenta URI darbvirsmas ierakstam “Type=Link”"
+
+#: ../libegg/eggdesktopfile.c:1404
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nav palaižams vienums"
+
+#: ../libegg/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Deaktivēt savienojumu ar sesiju pārvaldnieku"
+
+#: ../libegg/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Norādīt datni, kas satur saglabāto konfigurāciju"
+
+#: ../libegg/eggsmclient.c:228
+msgid "FILE"
+msgstr "DATNE"
+
+#: ../libegg/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Norādiet sesiju pārvaldības ID"
+
+#: ../libegg/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libegg/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Sesiju pārvaldības opcijas:"
+
+#: ../libegg/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Rādīt sesiju pārvaldības opcijas"
+
